@@ -3,7 +3,7 @@ set -e -u
 
 echo "Checking out semver-tool"
 rm -rf ./semver-tool
-git clone https://github.com/fsaintjacques/semver-tool.git
+git clone https://github.com/dafutils/semver-tool.git
 
 echo "Attempting to resolve the latest release version tag..."
 
